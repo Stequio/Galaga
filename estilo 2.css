@@ -1,0 +1,97 @@
+body{
+    background: rgb(0, 0, 0);
+}
+
+ul{
+    list-style: none;
+}
+
+.menu a:hover{
+    color: rgb(255, 255, 255);
+    background: rgba(0, 0, 0, 0.836);
+    animation: 0.50s ms 1;
+} 
+
+@keyframes ms{
+    0%{
+        opacity: 0;
+        transform: scale(1.5);
+    }
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    display: block;
+    margin: auto;
+    font-family: cursive;
+}
+.menu {
+    top: 10px;
+    background: white;
+    border: solid rgb(0, 0, 0) 2px;
+    width: 375px;
+    margin: auto;
+    list-style: none;
+    padding: 1rem;
+    
+}
+
+h2{
+    font-size: 160%;
+    font-family: monospace;
+    font-weight: bold;
+}
+
+#contenido ul{
+    margin-top: 90px ;
+    margin: 40px;
+    list-style: none;
+    display: inline-block;
+}
+
+#Name{
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 
+    'Lucida Grande', 'Lucida Sans Unicode', Geneva,
+     Verdana, sans-serif;
+}
+
+#Precio{
+    color: green;
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 
+    'Lucida Grande', 'Lucida Sans Unicode', Geneva,
+     Verdana, sans-serif;
+}
+
+.div_precio{
+    background: rgb(17, 83, 0) ;
+    border: solid 2px white;
+    color: white;
+    text-align: center;
+    font-size: 22px;
+    width: 205px;
+    height: 35px;
+    margin: auto;
+}
+
+.div_precio:hover{
+    background: rgba(0, 0, 0, 0) !important;
+
+}
+
+.div_precio a:hover{
+    color: green;
+}
+
+.div_precio a{
+    color: white;
+}
+
+.menu {
+    text-align: center;
+}

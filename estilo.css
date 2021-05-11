@@ -1,0 +1,93 @@
+body{
+    background: black;
+}
+
+#cabeza img{
+    width: 400px;
+    padding: 9px 450px;
+}
+
+#cabeza {
+
+}
+
+ul{
+    list-style: none;
+}
+
+li{
+    display: inline-block;
+}
+
+a:hover{
+    color: rgb(0, 0, 0);
+    background: rgba(255, 255, 255, 0.836);
+    animation: 0.50s ms 1;
+} 
+
+@keyframes ms{
+    0%{
+        opacity: 0;
+        transform: scale(1.5);
+    }
+}
+
+a {
+    text-decoration: none;
+    color: rgb(255, 251, 0);
+    display: block;
+    padding: 5px 125px;
+    margin: auto;
+    font-size: 14px;
+    font-family: cursive;
+}
+.menu {
+    position: relative;
+    top: 10px;
+    background: rgb(0,0,0);
+    background: linear-gradient(0deg, rgba(0,0,0,1) 1%, 
+    rgba(0,0,0,1) 43%, rgba(4,0,255,1) 100%);
+    border: solid;
+    width: 1300px;
+    margin: auto;
+    list-style: none;
+    
+}
+
+h2{
+    font-size: 160%;
+    font-family: monospace;
+    font-weight: bold;
+}
+
+#contenido{
+    
+}
+
+#contenido p{
+    color: white;
+    font-size: 35px;
+    font-family: monospace;
+    text-align: center;
+}
+
+#contenido img{
+    border: solid 3px rgb(6, 0, 94);
+}
+
+#contenido ul{
+    list-style: none;
+    display: inline-block;
+}
+
+#contenido p{
+    background: rgb(100, 100, 100);
+    border: solid 3px white;
+    width: 1320px;
+    
+}
+
+.pa{
+    color: white;
+    font-size: 30px;
+}
